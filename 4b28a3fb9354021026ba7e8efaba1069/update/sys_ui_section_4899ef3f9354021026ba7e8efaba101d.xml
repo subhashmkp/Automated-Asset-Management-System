@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Asset Details" section_id="4899ef3f9354021026ba7e8efaba101d" sys_domain="global" table="x_757927_automat_0_asset" version="3" view="itam_workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>d899ef3f9354021026ba7e8efaba101f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5899ef3f9354021026ba7e8efaba1024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_category</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>d099ef3f9354021026ba7e8efaba1021</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5099ef3f9354021026ba7e8efaba1026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5499ef3f9354021026ba7e8efaba1022</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>d099ef3f9354021026ba7e8efaba1027</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>4899ef3f9354021026ba7e8efaba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stockroom</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>d499ef3f9354021026ba7e8efaba1023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reserved_for</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>5099ef3f9354021026ba7e8efaba1020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>managed_by</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>dc99ef3f9354021026ba7e8efaba1024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owned_by</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5899ef3f9354021026ba7e8efaba1021</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>d499ef3f9354021026ba7e8efaba1026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>d899ef3f9354021026ba7e8efaba1022</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5899ef3f9354021026ba7e8efaba1027</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>dc99ef3f9354021026ba7e8efaba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5c99ef3f9354021026ba7e8efaba1023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>d499ef3f9354021026ba7e8efaba1020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5499ef3f9354021026ba7e8efaba1025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>substatus</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>dc99ef3f9354021026ba7e8efaba1021</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5c99ef3f9354021026ba7e8efaba1026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5099ef3f9354021026ba7e8efaba1023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>5c99ef3f9354021026ba7e8efaba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_function</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>5499ef3f9354021026ba7e8efaba101f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>d099ef3f9354021026ba7e8efaba1024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>5c99ef3f9354021026ba7e8efaba1020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:04</sys_created_on>
+            <sys_id>d899ef3f9354021026ba7e8efaba1025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">4899ef3f9354021026ba7e8efaba101d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Asset Details</caption>
+            <header>false</header>
+            <name>x_757927_automat_0_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4899ef3f9354021026ba7e8efaba101d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_757927_automat_0_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+            <sys_update_name>sys_ui_section_4899ef3f9354021026ba7e8efaba101d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ITAM Workspace" name="itam_workspace">e53c64d153c230108125ddeeff7b12e3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

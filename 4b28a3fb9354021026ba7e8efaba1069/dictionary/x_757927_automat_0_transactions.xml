@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9af92b7f9354021026ba7e8efaba10bf" label="Transactions" max_length="40" name="x_757927_automat_0_transactions" type="collection">
+        <element label="Asset ID" max_length="32" name="asset_id" reference="x_757927_automat_0_asset" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="1" label="Quantity" max_length="255" name="quantity" type="integer"/>
+        <element label="Transaction Date" max_length="40" name="transaction_date" type="glide_date"/>
+        <element choice="1" label="Transaction Type" max_length="40" name="transaction_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Checkout" sequence="0" value="checkout"/>
+                <element inactive_on_update="false" label="Check-in" sequence="1" value="check_in"/>
+                <element inactive_on_update="false" label="Transfer" sequence="2" value="transfer"/>
+                <element inactive_on_update="false" label="Disposal" sequence="3" value="disposal"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="asset_id"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

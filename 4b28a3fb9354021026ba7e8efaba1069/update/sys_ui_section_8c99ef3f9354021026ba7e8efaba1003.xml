@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Depreciation" section_id="8c99ef3f9354021026ba7e8efaba1003" sys_domain="global" table="x_757927_automat_0_asset" version="3" view="itam_workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>depreciation</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>8499ef3f9354021026ba7e8efaba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">8c99ef3f9354021026ba7e8efaba1003</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>depreciation_date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>0499ef3f9354021026ba7e8efaba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">8c99ef3f9354021026ba7e8efaba1003</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>salvage_value</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>0c99ef3f9354021026ba7e8efaba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">8c99ef3f9354021026ba7e8efaba1003</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>8899ef3f9354021026ba7e8efaba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">8c99ef3f9354021026ba7e8efaba1003</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>residual_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>8099ef3f9354021026ba7e8efaba1007</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">8c99ef3f9354021026ba7e8efaba1003</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>residual</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>8c99ef3f9354021026ba7e8efaba1004</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">8c99ef3f9354021026ba7e8efaba1003</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>depreciated_amount</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_id>0099ef3f9354021026ba7e8efaba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">8c99ef3f9354021026ba7e8efaba1003</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Depreciation</caption>
+            <header>false</header>
+            <name>x_757927_automat_0_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c99ef3f9354021026ba7e8efaba1003</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_757927_automat_0_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+            <sys_update_name>sys_ui_section_8c99ef3f9354021026ba7e8efaba1003</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:21:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ITAM Workspace" name="itam_workspace">e53c64d153c230108125ddeeff7b12e3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

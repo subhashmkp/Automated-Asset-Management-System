@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46db63339394021026ba7e8efaba104d" label="Maintenance" max_length="40" name="x_757927_automat_0_maintenance" type="collection">
+        <element label="Asset ID" max_length="32" name="asset_id" reference="x_757927_automat_0_asset" type="reference"/>
+        <element label="Cost" max_length="40" name="cost" type="currency"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element choice="1" label="Maintenance Type" max_length="40" name="maintenance_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled service" sequence="0" value="scheduled_service"/>
+                <element inactive_on_update="false" label="Repair" sequence="1" value="repair"/>
+                <element inactive_on_update="false" label="Calibration" sequence="2" value="calibration"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Performed By" max_length="32" name="performed_by" reference="sys_user" type="reference"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="asset_id"/>
+        </index>
+        <index name="index2">
+            <element name="performed_by"/>
+        </index>
+    </element>
+</database>

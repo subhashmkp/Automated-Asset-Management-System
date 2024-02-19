@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Automated Asset Management System">c68eebf39b94021012bfc3412209bda3</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_757927_automat_0.user" name="x_757927_automat_0.user">0f28a3fb9354021026ba7e8efaba1083</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-18 23:42:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f8e2ff39394021026ba7e8efaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c68eebf39b94021012bfc3412209bda3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>par_dashboard_permission_0f8e2ff39394021026ba7e8efaba10b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-18 23:42:50</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_757927_automat_0_asset" version="2" view="workspace-automated-asset-management-system-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset_tag</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>c89eaff39394021026ba7e8efaba103f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>model_category</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>c09eaff39394021026ba7e8efaba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>model.display_name</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>c49eaff39394021026ba7e8efaba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>c89eaff39394021026ba7e8efaba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>cc9eaff39394021026ba7e8efaba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>install_status</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>c09eaff39394021026ba7e8efaba1041</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>substatus</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>c49eaff39394021026ba7e8efaba1041</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cost</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>c89eaff39394021026ba7e8efaba1041</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ci</element>
+            <list_id display_value="x_757927_automat_0_asset" element="NULL" name="x_757927_automat_0_asset" parent="NULL" relationship="NULL" sys_domain="global" view="c68eebf329940210fcf7f90a7c3a6ca0">489eaff39394021026ba7e8efaba103e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_id>cc9eaff39394021026ba7e8efaba1041</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_757927_automat_0_asset</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>489eaff39394021026ba7e8efaba103e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_757927_automat_0_asset</sys_name>
+            <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+            <sys_update_name>sys_ui_list_x_757927_automat_0_asset_workspace-automated-asset-management-system-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:42:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Automated Asset Management System 0" name="workspace-automated-asset-management-system-0">c68eebf329940210fcf7f90a7c3a6ca0</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

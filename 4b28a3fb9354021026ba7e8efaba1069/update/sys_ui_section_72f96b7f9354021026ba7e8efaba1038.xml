@@ -4,13 +4,83 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-18 23:22:52</sys_created_on>
-            <sys_id>36f96b7f9354021026ba7e8efaba103b</sys_id>
+            <sys_created_on>2024-02-18 23:59:17</sys_created_on>
+            <sys_id>4052f37b9394021026ba7e8efaba1065</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_transactions" sys_domain="global" view="Default view">72f96b7f9354021026ba7e8efaba1038</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-18 23:22:52</sys_updated_on>
+            <sys_updated_on>2024-02-18 23:59:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:59:17</sys_created_on>
+            <sys_id>4852f37b9394021026ba7e8efaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_transactions" sys_domain="global" view="Default view">72f96b7f9354021026ba7e8efaba1038</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:59:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:59:17</sys_created_on>
+            <sys_id>4052f37b9394021026ba7e8efaba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_transactions" sys_domain="global" view="Default view">72f96b7f9354021026ba7e8efaba1038</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:59:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:59:17</sys_created_on>
+            <sys_id>4852f37b9394021026ba7e8efaba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_transactions" sys_domain="global" view="Default view">72f96b7f9354021026ba7e8efaba1038</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:59:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:59:17</sys_created_on>
+            <sys_id>4052f37b9394021026ba7e8efaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_transactions" sys_domain="global" view="Default view">72f96b7f9354021026ba7e8efaba1038</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:59:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-18 23:59:17</sys_created_on>
+            <sys_id>4852f37b9394021026ba7e8efaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_transactions" sys_domain="global" view="Default view">72f96b7f9354021026ba7e8efaba1038</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-18 23:59:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

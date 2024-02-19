@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="46db63339394021026ba7e8efaba104d" label="Maintenance" max_length="40" name="x_757927_automat_0_maintenance" type="collection">
+    <element db_object_id="46db63339394021026ba7e8efaba104d" label="Maintenance" max_length="40" name="x_757927_automat_0_maintenance" text_index="true" type="collection">
         <element label="Asset ID" max_length="32" name="asset_id" reference="x_757927_automat_0_asset" type="reference"/>
         <element label="Cost" max_length="40" name="cost" type="currency"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>

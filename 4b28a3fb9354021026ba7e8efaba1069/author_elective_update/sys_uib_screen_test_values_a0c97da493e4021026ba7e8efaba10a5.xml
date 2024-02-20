@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{}</macroponent_config>
+        <screen display_value="Home default copy">20c97da493e4021026ba7e8efaba10a1</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 23:08:00</sys_created_on>
+        <sys_id>a0c97da493e4021026ba7e8efaba10a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_a0c97da493e4021026ba7e8efaba10a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 23:08:00</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</application>
+        <file_path/>
+        <instance_id>2feb5806db9639102f082a5913961940</instance_id>
+        <instance_name>dev205014</instance_name>
+        <name>sys_uib_screen_test_values_a0c97da493e4021026ba7e8efaba10a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{}</macroponent_config><screen display_value="Home default copy">20c97da493e4021026ba7e8efaba10a1</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-20 23:08:00</sys_created_on><sys_id>a0c97da493e4021026ba7e8efaba10a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package><sys_policy/><sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope><sys_update_name>sys_uib_screen_test_values_a0c97da493e4021026ba7e8efaba10a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-20 23:08:00</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>460433627</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c1b8237f9310021026ba7e8efaba10e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 23:08:00</sys_created_on>
+        <sys_id>a0c97da493e4021026ba7e8efaba10a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc8c6ad6b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 23:08:00</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>64c97da4a2e40210b2670d1c6fb7b9a6</update_guid>
+        <update_guid_history>64c97da4a2e40210b2670d1c6fb7b9a6:460433627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 23:08:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>066c39fbf5e0414280d78988ef6e9904</sys_id>
+        <sys_metadata>a0c97da493e4021026ba7e8efaba10a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_scope_delete display_value="">bea876c21e38424eac72466ae1799cb9</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_a0c97da493e4021026ba7e8efaba10a5</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_a0c97da493e4021026ba7e8efaba10a5">a0c97da493e4021026ba7e8efaba10a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 23:08:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Catalog Item Request">8a59a57815600210aec9ee3de5ca3301</page>
+        <required_translations>[ {
+  "message" : "New Request",
+  "comment" : ""
+}, {
+  "message" : "New Requested Item",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 16:34:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>4a5965780d600210ecdc05df5c75b3f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_ux_page_property_4a5965780d600210ecdc05df5c75b3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 16:34:52</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_757927_automat_0.8a59a57815600210aec9ee3de5ca3301.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Requested Item"},"routeInfo":{"route":"record","fields":{"table":"sc_req_item","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"sc_req_item","canCreate":true}}},{"label":{"translatable":true,"message":"New Request"},"routeInfo":{"route":"record","fields":{"table":"sc_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"sc_request","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a5965780d600210ecdc05df5c75b3f3"/>
+</record_update>

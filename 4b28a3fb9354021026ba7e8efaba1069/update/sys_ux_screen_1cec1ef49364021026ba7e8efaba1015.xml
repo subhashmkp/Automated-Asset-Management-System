@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="Automated Asset Management System App Config">4a8eebf39d9402109ed765f0e6f43faa</app_config>
+        <app_config display_value="Catalog Item Request App Config">4a59a57829600210ca34dd6f862c4c02</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[
@@ -9,10 +9,10 @@
         "eventMappingId": "ckhffjjisfyaaaabboddhhhmwraaxeeaft",
         "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_757927_automat_0.NAV_ITEM_SELECTED_RELAY_0e8eebf3ce94021029b9b913beec9794",
+        "sourceEventApiName": "x_757927_automat_0.NAV_ITEM_SELECTED_RELAY_0e596578cd600210f41a0d9ee79f21ec",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_757927_automat_0.NAV_ITEM_SELECTED_RELAY_0e8eebf3ce94021029b9b913beec9794",
+            "apiName": "x_757927_automat_0.NAV_ITEM_SELECTED_RELAY_0e596578cd600210f41a0d9ee79f21ec",
             "id": null,
             "type": "UXEVENT"
         },
@@ -109,9 +109,124 @@
                 "type": "EVENT"
             }
         ]
+    },
+    {
+        "eventMappingId": "clswiizddhyaaddtbddjhhocjujxqggii",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_757927_automat_0.NAV_ITEM_SELECTED_RELAY_d8ec9af49364021026ba7e8efaba1076",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_757927_automat_0.NAV_ITEM_SELECTED_RELAY_d8ec9af49364021026ba7e8efaba1076",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "container": {
+                            "external": {
+                                "binding": {
+                                    "address": [
+                                        "external"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "multiInstField": {
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "navigationOptions": {
+                                "binding": {
+                                    "address": [
+                                        "navigationOptions"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "passiveNavigation": {
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "redirect": {
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "targetRoute": {
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "title": {
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "clswiizddhyaaddtaddjhhorggffjazkz",
+                "type": "EVENT"
+            }
+        ]
     }
 ]</event_mappings>
-        <macroponent display_value="Home">0e8eebf3ce94021029b9b913beec9794</macroponent>
+        <macroponent display_value="Home default copy">d8ec9af49364021026ba7e8efaba1076</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
@@ -150,28 +265,28 @@
         "value": ""
     }
 }</macroponent_config>
-        <name>Home default</name>
+        <name>Home default copy</name>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="Home">428eebf33794021054f2a7b7ed2638a0</screen_type>
+        <screen_type display_value="Home">06596578da600210021421663f11c5f8</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-18 23:42:47</sys_created_on>
+        <sys_created_on>2024-02-21 20:19:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c28eebf3609402100e5f63e8add65598</sys_id>
-        <sys_mod_count>27</sys_mod_count>
-        <sys_name>Home default</sys_name>
+        <sys_id>1cec1ef49364021026ba7e8efaba1015</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Home default copy</sys_name>
         <sys_overrides/>
         <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
-        <sys_update_name>sys_ux_screen_c28eebf3609402100e5f63e8add65598</sys_update_name>
+        <sys_update_name>sys_ux_screen_1cec1ef49364021026ba7e8efaba1015</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 20:22:09</sys_updated_on>
+        <sys_updated_on>2024-02-22 12:53:26</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=c28eebf3609402100e5f63e8add65598"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cec1ef49364021026ba7e8efaba1015"/>
 </record_update>

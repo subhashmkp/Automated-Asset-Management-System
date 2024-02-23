@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Catalog Item Request">ca59657808600210ed19cc52260a65fa</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 16:34:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c759e5789360021026ba7e8efaba104b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ca59657808600210ed19cc52260a65fa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>par_dashboard_permission_c759e5789360021026ba7e8efaba104b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 16:34:51</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+    </par_dashboard_permission>
+</record_update>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "2eda8d95aae6d05a26d94fbf692ac6f9",
+            "type": "MACROPONENT"
+        },
+        "elementId": "iframe_1",
+        "elementLabel": "iFrame 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "allowTopNavigation": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "disableSandbox": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "height": {
+                "type": "JSON_LITERAL",
+                "value": "100%"
+            },
+            "src": {
+                "type": "JSON_LITERAL",
+                "value": "/sc_req_item_list.do?sysparm_query=cat_item%3D04b7e94b4f7b4200086eeed18110c7fd&amp;sysparm_view=RPTb43b16f09364021026ba7e8efaba10a7"
+            },
+            "title": {
+                "type": "JSON_LITERAL",
+                "value": "Standard Laptop"
+            },
+            "width": {
+                "type": "JSON_LITERAL",
+                "value": "100%"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events>1c2121819324421026ba7e8efaba10ff</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "iframe_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 10:37:08</sys_created_on>
+        <sys_id>0911e9059324421026ba7e8efaba1045</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_ux_macroponent_0911e9059324421026ba7e8efaba1045</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 11:00:22</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=0911e9059324421026ba7e8efaba1045"/>
+</record_update>

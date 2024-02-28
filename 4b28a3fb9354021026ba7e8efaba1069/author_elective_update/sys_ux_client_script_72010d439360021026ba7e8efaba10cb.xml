@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Home default copy">d8ec9af49364021026ba7e8efaba1076</macroponent>
+        <name>Apply parFilters2</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({ api, event, helpers, imports }) {
+	const mergePARFiltersV2 = imports["global.mergePARFilters"]().v2;
+	const { appliedFilters } = event.payload;
+	api.setState("parFilters2", ({ currentValue, api }) => {
+		const { parFilters } = mergePARFiltersV2(currentValue, appliedFilters);
+		return parFilters;
+	});
+	//api.setState("followFilter1",true);
+	//api.setState("followFilter2",false);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 13:41:33</sys_created_on>
+        <sys_id>72010d439360021026ba7e8efaba10cb</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Apply parFilters2</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_ux_client_script_72010d439360021026ba7e8efaba10cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 13:47:11</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</application>
+        <file_path/>
+        <instance_id>2feb5806db9639102f082a5913961940</instance_id>
+        <instance_name>dev205014</instance_name>
+        <name>sys_ux_client_script_72010d439360021026ba7e8efaba10cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes&gt;8f0ec3492c5f441781f1f44f36351242&lt;/includes&gt;&lt;macroponent display_value="Home default copy"&gt;d8ec9af49364021026ba7e8efaba1076&lt;/macroponent&gt;&lt;name&gt;Apply parFilters2&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({ api, event, helpers, imports }) {
+	const mergePARFiltersV2 = imports["global.mergePARFilters"]().v2;
+	const { appliedFilters } = event.payload;
+	api.setState("parFilters2", ({ currentValue, api }) =&gt; {
+		const { parFilters } = mergePARFiltersV2(currentValue, appliedFilters);
+		return parFilters;
+	});
+	//api.setState("followFilter1",true);
+	//api.setState("followFilter2",false);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-28 13:41:33&lt;/sys_created_on&gt;&lt;sys_id&gt;72010d439360021026ba7e8efaba10cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Apply parFilters2&lt;/sys_name&gt;&lt;sys_package display_value="Automated Asset Management System" source="x_757927_automat_0"&gt;4b28a3fb9354021026ba7e8efaba1069&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Automated Asset Management System"&gt;4b28a3fb9354021026ba7e8efaba1069&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_72010d439360021026ba7e8efaba10cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-28 13:47:11&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1902766371</payload_hash>
+        <record_name>Apply parFilters2</record_name>
+        <reverted_from/>
+        <source>c1b8237f9310021026ba7e8efaba10e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 13:47:11</sys_created_on>
+        <sys_id>af1681c793a0021026ba7e8efaba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18deff81e7b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 13:47:11</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>271681c7a6a002103940ac0354dc9ff3</update_guid>
+        <update_guid_history>271681c7a6a002103940ac0354dc9ff3:1902766371,e3e5cd87cca00210e6457da979a39b12:493474786,7385c58711a002104b40aa5ca5df8a61:1902766371,f8454187fea00210597dc59631b3eeb6:493474786,2325cd47d3a00210f7df171a12ac1593:1902766371,7f054d4717a00210465f15fc4136911d:-902495560,43f4c94762a002102bc91700d439eb45:1983180151,30d4c5479aa0021012e640e7675cb2d1:-902495560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 14:51:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>303bd985df8d4126b2ca8cd79a9d4aa4</sys_id>
+        <sys_metadata>72010d439360021026ba7e8efaba10cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply parFilters2</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_scope_delete display_value="">bea876c21e38424eac72466ae1799cb9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_72010d439360021026ba7e8efaba10cb</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_72010d439360021026ba7e8efaba10cb">af1681c793a0021026ba7e8efaba10f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 14:51:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

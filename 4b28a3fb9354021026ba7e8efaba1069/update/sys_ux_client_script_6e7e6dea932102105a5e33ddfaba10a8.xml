@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home">af72ef55e4ad0210dd3d70f60b049531</macroponent>
+        <name>Add Asset Tags to Pills</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+//{"pillText": "Test 1.2" }
+const newObject = {
+  pillText: api.state.tag
+};
+api.setState('assetTags', [...api.state.assetTags, newObject]);
+//api.setState('tagStrings', api.state.tagStrings + '\\n' + api.state.tag);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 21:04:40</sys_created_on>
+        <sys_id>6e7e6dea932102105a5e33ddfaba10a8</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Add Asset Tags to Pills</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_ux_client_script_6e7e6dea932102105a5e33ddfaba10a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 15:50:00</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ad82639593ad02105a5e33ddfaba105c" sys_domain="global" table="x_757927_automat_0_asset" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-13 07:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6582639593ad02105a5e33ddfaba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_757927_automat_0_asset" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">ad82639593ad02105a5e33ddfaba105c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">2582639593ad02105a5e33ddfaba1060</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-13 07:43:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-13 07:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a582639593ad02105a5e33ddfaba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_757927_automat_0_asset" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">ad82639593ad02105a5e33ddfaba105c</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">6582639593ad02105a5e33ddfaba1065</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-13 07:43:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-13 07:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed82639593ad02105a5e33ddfaba10b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_757927_automat_0_asset" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">ad82639593ad02105a5e33ddfaba105c</sys_ui_form>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">ed82639593ad02105a5e33ddfaba10b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-13 07:43:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-13 07:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a182639593ad02105a5e33ddfaba10b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_757927_automat_0_asset" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">ad82639593ad02105a5e33ddfaba105c</sys_ui_form>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">a182639593ad02105a5e33ddfaba10b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-13 07:43:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-13 07:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e182639593ad02105a5e33ddfaba10bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_757927_automat_0_asset" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">ad82639593ad02105a5e33ddfaba105c</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">e182639593ad02105a5e33ddfaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-13 07:43:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-13 07:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed82639593ad02105a5e33ddfaba10ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_757927_automat_0_asset" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">ad82639593ad02105a5e33ddfaba105c</sys_ui_form>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_757927_automat_0_asset" sys_domain="global" view="2b72ef55f3ad0210734454c34e2fcc37">2982639593ad02105a5e33ddfaba10bd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-13 07:43:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_757927_automat_0_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-13 07:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad82639593ad02105a5e33ddfaba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_757927_automat_0_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ad82639593ad02105a5e33ddfaba105c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-13 07:43:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Asset Tags to Stockroom 0" name="workspace-asset-tags-to-stockroom-0">2b72ef55f3ad0210734454c34e2fcc37</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -13,7 +13,7 @@
         <label>Maintenance</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_757927_automat_0_maintenance</name>
-        <number_ref display_value="MAI">5adb63339394021026ba7e8efaba1072</number_ref>
+        <number_ref display_value="">5adb63339394021026ba7e8efaba1072</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

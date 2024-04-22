@@ -5,7 +5,6 @@
         <can_write>false</can_write>
         <dashboard display_value="Catalog Item Request">ca59657808600210ed19cc52260a65fa</dashboard>
         <group/>
-        <owner>false</owner>
         <role display_value="x_757927_automat_0.user" name="x_757927_automat_0.user">0f28a3fb9354021026ba7e8efaba1083</role>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>

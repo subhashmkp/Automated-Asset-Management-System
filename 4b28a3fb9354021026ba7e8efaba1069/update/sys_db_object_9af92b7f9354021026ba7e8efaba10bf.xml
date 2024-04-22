@@ -13,7 +13,7 @@
         <label>Transactions</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_757927_automat_0_transactions</name>
-        <number_ref display_value="TRN">d2f92b7f9354021026ba7e8efaba10f1</number_ref>
+        <number_ref display_value="">d2f92b7f9354021026ba7e8efaba10f1</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

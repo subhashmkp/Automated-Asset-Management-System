@@ -5,7 +5,6 @@
         <can_write>false</can_write>
         <dashboard display_value="Automated Asset Management System">c68eebf39b94021012bfc3412209bda3</dashboard>
         <group/>
-        <owner>false</owner>
         <role display_value="x_757927_automat_0.admin" name="x_757927_automat_0.admin">0b28a3fb9354021026ba7e8efaba107e</role>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>

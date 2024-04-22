@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_757927_automat_0.AssetStockroom</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AssetStockroom</name>
+        <script><![CDATA[var AssetStockroom = Class.create();
+AssetStockroom.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    initialize: function() {
+    },
+
+	processAssetTags: function(){
+		var stockroom = this.getParameter('sysparm_stockroom');
+		var assetTags = this.getParameter('sysparm_assetTags');
+		//this._validateAssetTags(assetTags);
+		return 'Test message';
+	},
+	
+	_validateAssetTags: function(tags){
+		gs.addInfoMessage('Asset Tags: ' + tags);
+	},
+
+    type: 'AssetStockroom'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 11:22:11</sys_created_on>
+        <sys_id>3b7d4397936102105a5e33ddfaba1032</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>AssetStockroom</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_script_include_3b7d4397936102105a5e33ddfaba1032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 12:05:07</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</application>
+        <file_path/>
+        <instance_id>696cc6e7db063954f697684e13961940</instance_id>
+        <instance_name>dev197503</instance_name>
+        <name>sys_script_include_3b7d4397936102105a5e33ddfaba1032</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_757927_automat_0.AssetStockroom&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;AssetStockroom&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AssetStockroom = Class.create();
+AssetStockroom.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    initialize: function() {
+    },
+
+	processAssetTags: function(){
+		var stockroom = this.getParameter('sysparm_stockroom');
+		var assetTags = this.getParameter('sysparm_assetTags');
+		//this._validateAssetTags(assetTags);
+		return 'Test message';
+	},
+	
+	_validateAssetTags: function(tags){
+		gs.addInfoMessage('Asset Tags: ' + tags);
+	},
+
+    type: 'AssetStockroom'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-19 11:22:11&lt;/sys_created_on&gt;&lt;sys_id&gt;3b7d4397936102105a5e33ddfaba1032&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;AssetStockroom&lt;/sys_name&gt;&lt;sys_package display_value="Automated Asset Management System" source="x_757927_automat_0"&gt;4b28a3fb9354021026ba7e8efaba1069&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Automated Asset Management System"&gt;4b28a3fb9354021026ba7e8efaba1069&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_3b7d4397936102105a5e33ddfaba1032&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-19 12:05:07&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-509659362</payload_hash>
+        <record_name>AssetStockroom</record_name>
+        <reverted_from/>
+        <source>30727fbf931102105a5e33ddfaba10cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 12:05:07</sys_created_on>
+        <sys_id>21d75bdf936102105a5e33ddfaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef63f009b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 12:05:07</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>e5d75bdfcf6102105c3f2794fcee3a5b</update_guid>
+        <update_guid_history>e5d75bdfcf6102105c3f2794fcee3a5b:-509659362,58975f139ca10210dfd0e655a7f95c66:1447028849,2077d7133fa10210fb0d1580262d8333:103161704,e837d7df72610210e8bab497ca67c152:-1760153085,2366571b34610210ec206e76b4f9e397:-1724857565,dc26d7dfd76102106ada45a649704e4b:-530449655,9dfe07d763610210ae170d87f177a1ff:-1189598244,a5ae0f93136102104b532f0a87e54a58:1120536193,2c0ec79355610210e3698ed39331c182:520335927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 12:07:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>497d2c6663374c5fb751431da25b9961</sys_id>
+        <sys_metadata>3b7d4397936102105a5e33ddfaba1032</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AssetStockroom</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_scope_delete display_value="">bea876c21e38424eac72466ae1799cb9</sys_scope_delete>
+        <sys_update_name>sys_script_include_3b7d4397936102105a5e33ddfaba1032</sys_update_name>
+        <sys_update_version display_value="sys_script_include_3b7d4397936102105a5e33ddfaba1032">21d75bdf936102105a5e33ddfaba105c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 12:07:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Home">66fbfa9505750210ca7509650fbc2691</macroponent>
+        <name>Apl Par Filters</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({ api, event, helpers, imports }) {
+	const mergePARFiltersV2 = imports["global.mergePARFilters"]().v2;
+	const { appliedFilters } = event.payload;
+	api.setState("parFilters", ({ currentValue, api }) => {
+		const customFilter = [
+            {
+                type: "query",
+                apply_to: ["x_757927_automat_0_asset"], //Access page property value
+                encoded_query: "assigned_toIN"+ appliedFilters[0].values + "^ORmanaged_byIN" + appliedFilters[0].values
+            },
+        ];
+		const { parFilters } = mergePARFiltersV2(currentValue, customFilter);
+		console.log(appliedFilters[0].values);
+        console.log(customFilter);
+		return parFilters;
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 15:31:36</sys_created_on>
+        <sys_id>b61c72d5937502105a5e33ddfaba10e1</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Apl Par Filters</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_ux_client_script_b61c72d5937502105a5e33ddfaba10e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 18:05:05</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

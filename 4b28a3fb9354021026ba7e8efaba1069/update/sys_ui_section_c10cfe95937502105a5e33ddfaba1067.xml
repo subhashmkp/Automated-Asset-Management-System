@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c10cfe95937502105a5e33ddfaba1067" sys_domain="global" table="x_757927_automat_0_maintenance" version="3" view="workspace-1-filter-for-2-fields-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>450cfe95937502105a5e33ddfaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>4d0cfe95937502105a5e33ddfaba1069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>maintenance_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>c90cfe95937502105a5e33ddfaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>c10cfe95937502105a5e33ddfaba106a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>410cfe95937502105a5e33ddfaba1069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>490cfe95937502105a5e33ddfaba106a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>performed_by</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>c50cfe95937502105a5e33ddfaba1069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>cd0cfe95937502105a5e33ddfaba106a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_757927_automat_0_maintenance" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">c10cfe95937502105a5e33ddfaba1067</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_757927_automat_0_maintenance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c10cfe95937502105a5e33ddfaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_757927_automat_0_maintenance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+            <sys_update_name>sys_ui_section_c10cfe95937502105a5e33ddfaba1067</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace 1 filter for 2 fields 0" name="workspace-1-filter-for-2-fields-0">22fbfa956f750210e6f7b3f148b3d49d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

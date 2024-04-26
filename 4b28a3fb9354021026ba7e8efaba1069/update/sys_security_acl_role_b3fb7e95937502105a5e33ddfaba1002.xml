@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 15:11:20</sys_created_on>
+        <sys_id>b3fb7e95937502105a5e33ddfaba1002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.757927.1-filter-for-2-fields.*.x_757927_automat_0.admin</sys_name>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_security_acl display_value="x.757927.1-filter-for-2-fields.*">e2fbfa955375021034d71f06cef45c9d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b3fb7e95937502105a5e33ddfaba1002</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 15:11:20</sys_updated_on>
+        <sys_user_role display_value="x_757927_automat_0.admin" name="x_757927_automat_0.admin">0b28a3fb9354021026ba7e8efaba107e</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

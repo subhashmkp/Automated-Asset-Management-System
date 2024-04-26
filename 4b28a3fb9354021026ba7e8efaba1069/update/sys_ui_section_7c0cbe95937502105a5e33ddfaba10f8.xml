@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Financial" section_id="7c0cbe95937502105a5e33ddfaba10f8" sys_domain="global" table="x_757927_automat_0_asset" version="3" view="workspace-1-filter-for-2-fields-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>b40cbe95937502105a5e33ddfaba10fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>340cbe95937502105a5e33ddfaba10fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_line</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>380cbe95937502105a5e33ddfaba10fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_cost</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>300cbe95937502105a5e33ddfaba10fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>380cbe95937502105a5e33ddfaba10fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>3c0cbe95937502105a5e33ddfaba10fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_line.opened_at</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>bc0cbe95937502105a5e33ddfaba10fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gl_account</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>b80cbe95937502105a5e33ddfaba10fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:25</sys_created_on>
+            <sys_id>b00cbe95937502105a5e33ddfaba10fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_757927_automat_0_asset" sys_domain="global" view="22fbfa956f750210e6f7b3f148b3d49d">7c0cbe95937502105a5e33ddfaba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financial</caption>
+            <header>false</header>
+            <name>x_757927_automat_0_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-25 15:11:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c0cbe95937502105a5e33ddfaba10f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_757927_automat_0_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+            <sys_update_name>sys_ui_section_7c0cbe95937502105a5e33ddfaba10f8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-25 15:11:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace 1 filter for 2 fields 0" name="workspace-1-filter-for-2-fields-0">22fbfa956f750210e6f7b3f148b3d49d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

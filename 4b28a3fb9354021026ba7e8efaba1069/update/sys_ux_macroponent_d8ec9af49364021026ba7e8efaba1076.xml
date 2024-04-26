@@ -2974,16 +2974,16 @@
         "propertyValues": {
             "activeRoute": {
                 "icon": null,
-                "id": "clt5rdrs503s43j7wz4vij17n",
+                "id": "clvf9kngr01wd3j7qyatf3p7j",
                 "label": {
                     "type": "TRANSLATION_LITERAL",
                     "value": {
                         "code": null,
                         "comment": "",
-                        "message": "Tab 2"
+                        "message": "Tab 3"
                     }
                 },
-                "order": 200,
+                "order": 300,
                 "type": "local"
             },
             "ariaLabel": {
@@ -3214,6 +3214,9 @@
 }, {
   "message" : "Tab 2",
   "comment" : ""
+}, {
+  "message" : "Tab 3",
+  "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config>{}</root_component_config>
@@ -3257,14 +3260,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-21 20:19:56</sys_created_on>
         <sys_id>d8ec9af49364021026ba7e8efaba1076</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>Home default copy</sys_name>
         <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name>sys_ux_macroponent_d8ec9af49364021026ba7e8efaba1076</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-28 14:55:25</sys_updated_on>
+        <sys_updated_on>2024-04-25 15:10:26</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d8ec9af49364021026ba7e8efaba1076"/>
 </record_update>

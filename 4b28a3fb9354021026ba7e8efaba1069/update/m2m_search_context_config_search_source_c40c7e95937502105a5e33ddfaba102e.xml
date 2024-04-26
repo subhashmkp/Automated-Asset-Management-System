@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="1 filter for 2 fields - Workspace Search">eefbfa952a7502104359706a5d9c149d</search_context_config>
+        <source display_value="1 filter for 2 fields - x_757927_automat_0_mainten">800c7e95937502105a5e33ddfaba102c</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 15:11:21</sys_created_on>
+        <sys_id>c40c7e95937502105a5e33ddfaba102e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_c40c7e95937502105a5e33ddfaba102e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 15:11:21</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

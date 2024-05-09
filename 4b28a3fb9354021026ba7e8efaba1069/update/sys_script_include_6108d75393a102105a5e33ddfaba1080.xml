@@ -18,8 +18,9 @@ AssetStockroom.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
         //Update the Assets
         var grAsset = new GlideRecord('x_757927_automat_0_asset');
-        grAsset.addQuery('asset_tag', 'IN', assetTags);
+        grAsset.addQuery('asset_tag', 'IN', assetTags).addOrCondition('serial_number','IN', assetTags);
 		grAsset.setValue('install_status', '6'); //In stock
+		grAsset.setValue('substatus', 'quarantine'); //Quarantine
 		grAsset.setValue('stockroom', stockroom);
 		grAsset.updateMultiple();
 		gs.addInfoMessage('Asset Tags: ' + assetTags + ' are successfully added to stockroom');
@@ -31,7 +32,9 @@ AssetStockroom.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         var invalidTags = [];
         for (var i = 0; i < assetTags.length; i++) {
             var gr = new GlideRecord("x_757927_automat_0_asset");
-            gr.addQuery("asset_tag", assetTags[i]);
+            gr.addQuery("asset_tag", assetTags[i]).addOrCondition('serial_number',assetTags[i]);
+			gr.addQuery('install_status',9);
+			gr.addQuery('substatus', 'reserved');
             gr.query();
             if (!gr.next()) {
                 invalidTags.push(assetTags[i]);
@@ -47,13 +50,13 @@ AssetStockroom.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 12:07:12</sys_created_on>
         <sys_id>6108d75393a102105a5e33ddfaba1080</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>AssetStockroom</sys_name>
         <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name>sys_script_include_6108d75393a102105a5e33ddfaba1080</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-20 20:47:16</sys_updated_on>
+        <sys_updated_on>2024-05-08 10:55:25</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_757927_automat_0.Audience for app workspace-access-controls</api_name>
+        <description/>
+        <name>Audience for app workspace-access-controls</name>
+        <role_names/>
+        <roles>0b28a3fb9354021026ba7e8efaba107e,0f28a3fb9354021026ba7e8efaba1083</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 11:16:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c09c4239930202105a5e33ddfaba1052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app workspace-access-controls</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_ux_applicability_c09c4239930202105a5e33ddfaba1052</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 11:16:45</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

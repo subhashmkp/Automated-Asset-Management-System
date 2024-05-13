@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_criteria_m2m_inclusion">
+    <sys_ux_criteria_m2m_inclusion action="DELETE">
+        <active>false</active>
+        <applicability display_value="Asset Admin">686f0af9930202105a5e33ddfaba1071</applicability>
+        <sys_class_name>sys_ux_criteria_m2m_inclusion</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 14:43:38</sys_created_on>
+        <sys_id>ce840856938e42105a5e33ddfaba103f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_ux_criteria_m2m_inclusion_ce840856938e42105a5e33ddfaba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 14:51:14</sys_updated_on>
+        <user_criteria/>
+    </sys_ux_criteria_m2m_inclusion>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</application>
+        <file_path/>
+        <instance_id>696cc6e7db063954f697684e13961940</instance_id>
+        <instance_name>dev197503</instance_name>
+        <name>sys_ux_criteria_m2m_inclusion_ce840856938e42105a5e33ddfaba103f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_criteria_m2m_inclusion"><sys_ux_criteria_m2m_inclusion action="INSERT_OR_UPDATE"><active>false</active><applicability display_value="Asset Admin">686f0af9930202105a5e33ddfaba1071</applicability><sys_class_name>sys_ux_criteria_m2m_inclusion</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-10 14:43:38</sys_created_on><sys_id>ce840856938e42105a5e33ddfaba103f</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package><sys_policy/><sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope><sys_update_name>sys_ux_criteria_m2m_inclusion_ce840856938e42105a5e33ddfaba103f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-10 14:51:14</sys_updated_on><user_criteria/></sys_ux_criteria_m2m_inclusion></record_update>]]></payload>
+        <payload_hash>-1776691113</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>30727fbf931102105a5e33ddfaba10cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 14:54:23</sys_created_on>
+        <sys_id>79f7c89a938e42105a5e33ddfaba1054</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f62ff82fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 14:54:23</sys_updated_on>
+        <type>User Criteria Inclusion</type>
+        <update_guid>2b37885a0b8e4210b42eafa0b674e2f4</update_guid>
+        <update_guid_history>2b37885a0b8e4210b42eafa0b674e2f4:1162614960,2b37885a0b8e4210b42eafa0b674e2f4:1162614960,d08580d6078e42106947df522a62baed:-105112179</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 14:54:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_criteria_m2m_inclusion">sys_ux_criteria_m2m_inclusion</sys_db_object>
+        <sys_id>44ff087a16e34136894be68ddc6f2244</sys_id>
+        <sys_metadata>ce840856938e42105a5e33ddfaba103f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_scope_delete display_value="">bea876c21e38424eac72466ae1799cb9</sys_scope_delete>
+        <sys_update_name>sys_ux_criteria_m2m_inclusion_ce840856938e42105a5e33ddfaba103f</sys_update_name>
+        <sys_update_version display_value="sys_ux_criteria_m2m_inclusion_ce840856938e42105a5e33ddfaba103f">79f7c89a938e42105a5e33ddfaba1054</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 14:54:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>MS Teams meeting invite</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>teams_meeting_invite</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Teams Meeting Invite</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 20:29:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>693e48d4931202105a5e33ddfaba1008</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Teams Meeting Invite</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name>sys_hub_flow_693e48d4931202105a5e33ddfaba1008</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 20:30:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_variable_value action="delete_multiple" query="document_key=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008^sys_idNOT IN736ec494931202105a5e33ddfaba100a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Teams Meeting Invite">693e48d4931202105a5e33ddfaba1008</flow>
+        <name>Monthly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 20:30:29</sys_created_on>
+        <sys_id>736ec494931202105a5e33ddfaba100a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 20:30:29</sys_updated_on>
+        <trigger_definition display_value="Monthly">2ca52504c32222002841b63b12d3ae4a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>monthly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=736ec494931202105a5e33ddfaba100a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>736ec494931202105a5e33ddfaba100a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 20:30:29</sys_created_on>
+        <sys_id>336e0018931202105a5e33ddfaba10c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 20:30:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Day of Month">ab36a504c32222002841b63b12d3ae8a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>736ec494931202105a5e33ddfaba100a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 20:30:29</sys_created_on>
+        <sys_id>f76e0018931202105a5e33ddfaba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 20:30:29</sys_updated_on>
+        <value>1970-01-01 03:00:00</value>
+        <variable display_value="Time">b5d52504c32222002841b63b12d3aeaa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_2ca52504c32222002841b63b12d3ae4a^id=736ec494931202105a5e33ddfaba100a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=693e48d4931202105a5e33ddfaba1008^sys_idNOT IN653e48d4931202105a5e33ddfaba100a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>693e48d4931202105a5e33ddfaba1008</id>
+        <name>Teams Meeting Invite</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 20:29:31</sys_created_on>
+        <sys_id>653e48d4931202105a5e33ddfaba100a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 20:29:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=653e48d4931202105a5e33ddfaba100a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_693e48d4931202105a5e33ddfaba1008"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_693e48d4931202105a5e33ddfaba1008"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=693e48d4931202105a5e33ddfaba1008"/>
+</record_update>

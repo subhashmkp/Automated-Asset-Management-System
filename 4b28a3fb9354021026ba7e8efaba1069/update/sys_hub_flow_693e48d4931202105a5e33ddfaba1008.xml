@@ -4,7 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,10 +15,10 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>teams_meeting_invite</internal_name>
-        <label_cache>null</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Asset Record","reference":"x_757927_automat_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"ac06e27c-7a25-482c-8472-d62aba231029":["asset_id"]},"attributes":{}},{"name":"Created or Updated_1.current.depreciation_date","label":"Trigger - Record Created or Updated➛Asset Record➛Depreciation effective date","reference":"","reference_display":"Depreciation effective date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_757927_automat_0_asset","column_name":"depreciation_date","usedInstances":{"ac06e27c-7a25-482c-8472-d62aba231029":["depreciation_date"]}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Teams Meeting Invite</name>
+        <name>Teams meeting graph spoke: Attendees</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -35,68 +35,68 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>693e48d4931202105a5e33ddfaba1008</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Teams Meeting Invite</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Teams meeting graph spoke: Attendees</sys_name>
         <sys_overrides/>
         <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name>sys_hub_flow_693e48d4931202105a5e33ddfaba1008</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:30:39</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:21:16</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=693e48d4931202105a5e33ddfaba1008"/>
     <sys_variable_value action="delete_multiple" query="document_key=693e48d4931202105a5e33ddfaba1008"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008^sys_idNOT IN736ec494931202105a5e33ddfaba100a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008^sys_idNOT INe92e0b41935202105a5e33ddfaba102b"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Teams Meeting Invite">693e48d4931202105a5e33ddfaba1008</flow>
-        <name>Monthly</name>
+        <flow display_value="Teams meeting graph spoke: Attendees">693e48d4931202105a5e33ddfaba1008</flow>
+        <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:30:29</sys_created_on>
-        <sys_id>736ec494931202105a5e33ddfaba100a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-05-19 18:23:33</sys_created_on>
+        <sys_id>e92e0b41935202105a5e33ddfaba102b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:30:29</sys_updated_on>
-        <trigger_definition display_value="Monthly">2ca52504c32222002841b63b12d3ae4a</trigger_definition>
+        <sys_updated_on>2024-05-19 18:44:46</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
-        <trigger_type>monthly</trigger_type>
+        <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=736ec494931202105a5e33ddfaba100a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e92e0b41935202105a5e33ddfaba102b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>736ec494931202105a5e33ddfaba100a</document_key>
-        <order>10</order>
+        <document_key>e92e0b41935202105a5e33ddfaba102b</document_key>
+        <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:30:29</sys_created_on>
-        <sys_id>336e0018931202105a5e33ddfaba10c0</sys_id>
+        <sys_created_on>2024-05-19 18:23:33</sys_created_on>
+        <sys_id>212e0b41935202105a5e33ddfaba102d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:30:29</sys_updated_on>
-        <value>1</value>
-        <variable display_value="Day of Month">ab36a504c32222002841b63b12d3ae8a</variable>
+        <sys_updated_on>2024-05-19 18:23:33</sys_updated_on>
+        <value>x_757927_automat_0_asset</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>736ec494931202105a5e33ddfaba100a</document_key>
+        <document_key>e92e0b41935202105a5e33ddfaba102b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:30:29</sys_created_on>
-        <sys_id>f76e0018931202105a5e33ddfaba10bf</sys_id>
+        <sys_created_on>2024-05-19 18:23:33</sys_created_on>
+        <sys_id>292e0b41935202105a5e33ddfaba102c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:30:29</sys_updated_on>
-        <value>1970-01-01 03:00:00</value>
-        <variable display_value="Time">b5d52504c32222002841b63b12d3aeaa</variable>
+        <sys_updated_on>2024-05-19 18:23:33</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_2ca52504c32222002841b63b12d3ae4a^id=736ec494931202105a5e33ddfaba100a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=e92e0b41935202105a5e33ddfaba102b"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=693e48d4931202105a5e33ddfaba1008^sys_idNOT IN653e48d4931202105a5e33ddfaba100a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -111,15 +111,463 @@
         <sys_updated_on>2024-05-16 20:29:31</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=653e48d4931202105a5e33ddfaba100a"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=693e48d4931202105a5e33ddfaba1008^sys_idNOT IN05315f85935202105a5e33ddfaba10a0,8d315f85935202105a5e33ddfaba109b,8d315f85935202105a5e33ddfaba10a3"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name>FDCollection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e661186cd9f13110cedf7dffddb48f71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_complex_object_f4f014150f023300ecf0cc52ff767eed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Teams meeting graph spoke: Attendees">693e48d4931202105a5e33ddfaba1008</model>
+        <model_id>693e48d4931202105a5e33ddfaba1008</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>05315f85935202105a5e33ddfaba10a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=05315f85935202105a5e33ddfaba10a0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Teams meeting graph spoke: Attendees">693e48d4931202105a5e33ddfaba1008</model>
+        <model_id>693e48d4931202105a5e33ddfaba1008</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>8d315f85935202105a5e33ddfaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d315f85935202105a5e33ddfaba109b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Teams meeting graph spoke: Attendees">693e48d4931202105a5e33ddfaba1008</model>
+        <model_id>693e48d4931202105a5e33ddfaba1008</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>8d315f85935202105a5e33ddfaba10a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d315f85935202105a5e33ddfaba10a3"/>
     <sys_hub_flow_output action="delete_multiple" query="model=693e48d4931202105a5e33ddfaba1008"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=693e48d4931202105a5e33ddfaba1008"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008^sys_idNOT IN62e01b85935202105a5e33ddfaba1019,c31ec169935e02105a5e33ddfaba10f8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Teams meeting graph spoke: Attendees">693e48d4931202105a5e33ddfaba1008</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:35:39</sys_created_on>
+        <sys_id>62e01b85935202105a5e33ddfaba1019</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:21:06</sys_updated_on>
+        <ui_id>ac06e27c-7a25-482c-8472-d62aba231029</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=62e01b85935202105a5e33ddfaba1019"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>62e01b85935202105a5e33ddfaba1019</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>0d31d3c5935202105a5e33ddfaba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <value>x_757927_automat_0_maintenance</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>62e01b85935202105a5e33ddfaba1019</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>4531d3c5935202105a5e33ddfaba10c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:38:25</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=62e01b85935202105a5e33ddfaba1019"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>62e01b85935202105a5e33ddfaba1019</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>0d31d3c5935202105a5e33ddfaba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>62e01b85935202105a5e33ddfaba1019</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>c131d3c5935202105a5e33ddfaba10c2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:44:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>asset_id={{Created or Updated_1.current}}^depreciation_date={{Created or Updated_1.current.depreciation_date}}^status=open</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=62e01b85935202105a5e33ddfaba1019"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=62e01b85935202105a5e33ddfaba1019"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Teams Meeting Attendees">81ed8d29935e02105a5e33ddfaba1088</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Teams meeting graph spoke: Attendees">693e48d4931202105a5e33ddfaba1008</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:21:06</sys_created_on>
+        <sys_id>c31ec169935e02105a5e33ddfaba10f8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:21:09</sys_updated_on>
+        <ui_id>decd670e-4c70-4a37-99b6-c06356c903b7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c31ec169935e02105a5e33ddfaba10f8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c31ec169935e02105a5e33ddfaba10f8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c31ec169935e02105a5e33ddfaba10f8"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=693e48d4931202105a5e33ddfaba1008"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=693e48d4931202105a5e33ddfaba1008"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=693e48d4931202105a5e33ddfaba1008"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008^sys_idNOT IN05315f85935202105a5e33ddfaba109f,8d315f85935202105a5e33ddfaba10a2,8d31d3c5935202105a5e33ddfaba10b8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>05315f85935202105a5e33ddfaba109f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>8d315f85935202105a5e33ddfaba10a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 18:36:54</sys_created_on>
+        <sys_id>8d31d3c5935202105a5e33ddfaba10b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 18:36:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_693e48d4931202105a5e33ddfaba1008"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_693e48d4931202105a5e33ddfaba1008"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_693e48d4931202105a5e33ddfaba1008"/>

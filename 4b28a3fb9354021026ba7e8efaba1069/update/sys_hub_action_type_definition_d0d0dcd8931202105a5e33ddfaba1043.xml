@@ -10,29 +10,27 @@
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="">{}</category>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Teams meeting spoke Array of Object</description>
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>teams_meeting_attendees</internal_name>
-        <label_cache>[{"name":"{{step[792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf].oarr}}","label":"step➛Script step➛oArr","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD9bd11450505202107669acf836ec7efc","child_label":"oArr_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"oarr_child0","child_uiUniqueId":"f36ca667-da9c-479a-944b-90da28cccac4","uiUniqueId":"74ed949c-de3b-47fc-9431-bbc8c7d4daf4"}}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"{{step[792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf].attendees}}","label":"step➛Script step➛Attendees","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD544c49a52f5e02109258e79470ceffce","child_label":"attendees._","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"_","child_uiUniqueId":"1e2a3e49-2fdf-4183-8a14-dec504aa675f","uiUniqueId":"7ff3a6b6-e14c-4c85-807a-436dc536c28d"}}]</label_cache>
+        <master_snapshot>81ed8d29935e02105a5e33ddfaba1088</master_snapshot>
         <name>Teams Meeting Attendees</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-16 20:40:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0d0dcd8931202105a5e33ddfaba1043</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Teams Meeting Attendees</sys_name>
         <sys_overrides/>
         <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
@@ -40,26 +38,12 @@
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d0d0dcd8931202105a5e33ddfaba1043</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 11:20:21</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=d0d0dcd8931202105a5e33ddfaba1043"/>
     <sys_variable_value action="delete_multiple" query="document_key=d0d0dcd8931202105a5e33ddfaba1043"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>d0d0dcd8931202105a5e33ddfaba1043</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:44:49</sys_created_on>
-        <sys_id>65b15050935202105a5e33ddfaba1049</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:46:23</sys_updated_on>
-        <value/>
-        <variable display_value="out_array">2db15050935202105a5e33ddfaba103c</variable>
-    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
         <document_key>d0d0dcd8931202105a5e33ddfaba1043</document_key>
@@ -90,16 +74,28 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d0d0dcd8931202105a5e33ddfaba1043"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attendees</field>
+        <id>d0d0dcd8931202105a5e33ddfaba1043</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:17:29</sys_created_on>
+        <sys_id>464d0129935e02105a5e33ddfaba1055</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:17:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043</table>
+        <value>{{step[792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf].attendees}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>out_array</field>
         <id>d0d0dcd8931202105a5e33ddfaba1043</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-16 20:44:49</sys_created_on>
         <sys_id>e1b15050935202105a5e33ddfaba1049</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:46:23</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:13:00</sys_updated_on>
         <table>var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043</table>
-        <value>{{step[792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf].oarr}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -142,10 +138,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-16 20:42:20</sys_created_on>
         <sys_id>59215410935202105a5e33ddfaba1056</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 11:20:21</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:15:48</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=59215410935202105a5e33ddfaba1056"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -170,21 +166,22 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-16 20:42:20</sys_created_on>
         <sys_id>d9215410935202105a5e33ddfaba1062</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 11:20:21</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:15:48</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 // use array of objects&#13;
-var attendees = {&#13;
+var obj = {&#13;
     emailAddress: {&#13;
         "address": "test@test.com",&#13;
         "name": "test"&#13;
     },&#13;
-    type : null&#13;
+    type : "required"&#13;
 };&#13;
-var outArr2 = [];&#13;
-outArr2.push(attendees);&#13;
-outputs.oarr = JSON.stringify(outArr2);&#13;
+var attendees = [];&#13;
+attendees.push(obj);&#13;
+//outputs.attendees = JSON.stringify(attendees);&#13;
+outputs.attendees = attendees;&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -194,20 +191,20 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=59215410935202105a5e33ddfaba1056"/>
     <sys_translated_text action="delete_multiple" query="documentkey=59215410935202105a5e33ddfaba1056"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=59215410935202105a5e33ddfaba1056"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=59215410935202105a5e33ddfaba1056^sys_idNOT IN97d11450935202105a5e33ddfaba10fd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=59215410935202105a5e33ddfaba1056^sys_idNOT IN584c49a5935e02105a5e33ddfaba10d0"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
-        <name>FD9bd11450505202107669acf836ec7efc</name>
+        <name>FD544c49a52f5e02109258e79470ceffce</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>4b28a3fb9354021026ba7e8efaba1069</scope_name>
-        <serialized_content>{"FlowDesigner:FD9bd11450505202107669acf836ec7efc":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD9bd11450505202107669acf836ec7efc.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"oArr\",\"mandatory\":\"false\",\"child_name\":\"oarr_child0\",\"uiUniqueId\":\"74ed949c-de3b-47fc-9431-bbc8c7d4daf4\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD9bd11450505202107669acf836ec7efc\",\"child_label\":\"oArr_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f36ca667-da9c-479a-944b-90da28cccac4\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD544c49a52f5e02109258e79470ceffce":{"$COCollectionField":[{"_":{"emailAddress":{"address":"String","address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"address\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"29f365dd-061d-45a5-b9e0-64192568b897\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f1d54833-3f7d-4d53-b2c1-973265e7bc38\"}"}},"emailAddress.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"emailAddress\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"06383ac9-e74c-416a-9b3a-01f16b6893d1\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"c6021c26-ccb4-4a89-b512-4382b65caecf\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD544c49a52f5e02109258e79470ceffce\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD544c49a52f5e02109258e79470ceffce.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD544c49a52f5e02109258e79470ceffce\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:45:29</sys_created_on>
+        <sys_created_on>2024-05-20 22:12:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5fd11450935202105a5e33ddfaba10fc</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_id>184c49a5935e02105a5e33ddfaba10ce</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -215,14 +212,14 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 11:20:21</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:20:08</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=oArr_child0,child_name=oarr_child0,child_type=object,child_type_label=Object,child_uiUniqueId=f36ca667-da9c-479a-944b-90da28cccac4,co_type_name=FD9bd11450505202107669acf836ec7efc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=74ed949c-de3b-47fc-9431-bbc8c7d4daf4</attributes>
+        <attributes>child_label=attendees._,child_name=_,child_type=object,child_type_label=Object,child_uiUniqueId=1e2a3e49-2fdf-4183-8a14-dec504aa675f,co_type_name=FD544c49a52f5e02109258e79470ceffce,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=7ff3a6b6-e14c-4c85-807a-436dc536c28d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -246,7 +243,7 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>oarr</element>
+        <element>attendees</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -255,7 +252,7 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>oArr</label>
+        <label>Attendees</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
         <model display_value="Script step">59215410935202105a5e33ddfaba1056</model>
@@ -279,8 +276,8 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:45:29</sys_created_on>
-        <sys_id>97d11450935202105a5e33ddfaba10fd</sys_id>
+        <sys_created_on>2024-05-20 22:12:59</sys_created_on>
+        <sys_id>584c49a5935e02105a5e33ddfaba10d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -288,7 +285,7 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:45:29</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:12:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -302,19 +299,19 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=59215410935202105a5e33ddfaba1056"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_59215410935202105a5e33ddfaba1056^sys_idNOT IN5fd15450935202105a5e33ddfaba1000"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_59215410935202105a5e33ddfaba1056^sys_idNOT IN9c4c49a5935e02105a5e33ddfaba10e3"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>oarr</element>
+        <element>attendees</element>
         <help/>
         <hint/>
-        <label>oArr</label>
+        <label>Attendees</label>
         <language>en</language>
         <name>var__m_sys_hub_step_ext_output_59215410935202105a5e33ddfaba1056</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:45:29</sys_created_on>
-        <sys_id>5fd15450935202105a5e33ddfaba1000</sys_id>
+        <sys_created_on>2024-05-20 22:13:00</sys_created_on>
+        <sys_id>9c4c49a5935e02105a5e33ddfaba10e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
@@ -322,122 +319,12 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:45:29</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:13:00</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_hub_action_input action="delete_multiple" query="model=d0d0dcd8931202105a5e33ddfaba1043"/>
-    <sys_hub_action_output action="delete_multiple" query="model=d0d0dcd8931202105a5e33ddfaba1043^sys_idNOT IN2db15050935202105a5e33ddfaba103c,69215410935202105a5e33ddfaba1069,dd215410935202105a5e33ddfaba1064"/>
-    <sys_complex_object action="INSERT_OR_UPDATE">
-        <label/>
-        <name>FD65b1505017520210ed9fa5f3893d143b</name>
-        <namespace>FlowDesigner</namespace>
-        <scope_name>4b28a3fb9354021026ba7e8efaba1069</scope_name>
-        <serialized_content>{"FlowDesigner:FD65b1505017520210ed9fa5f3893d143b":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD65b1505017520210ed9fa5f3893d143b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"out_array\",\"mandatory\":\"false\",\"child_name\":\"oarr_child0\",\"uiUniqueId\":\"72f3e43d-65a6-449a-98c7-6fe25ebf1e31\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD65b1505017520210ed9fa5f3893d143b\",\"child_label\":\"oArr_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"74ed949c-de3b-47fc-9431-bbc8c7d4daf4\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f36ca667-da9c-479a-944b-90da28cccac4\"}"}}</serialized_content>
-        <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:44:49</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>29b15050935202105a5e33ddfaba103b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 11:20:21</sys_updated_on>
-        <type>complex_object_collection</type>
-    </sys_complex_object>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=oArr_child0,child_name=oarr_child0,child_type=object,child_type_label=Object,child_uiUniqueId=f36ca667-da9c-479a-944b-90da28cccac4,co_type_name=FD65b1505017520210ed9fa5f3893d143b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf,sourceType=step,sourceUiUniqueId=74ed949c-de3b-47fc-9431-bbc8c7d4daf4,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=72f3e43d-65a6-449a-98c7-6fe25ebf1e31</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>out_array</element>
-        <element_prototype/>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>out_array</label>
-        <mandatory>false</mandatory>
-        <max_length>65000</max_length>
-        <model display_value="Teams Meeting Attendees">d0d0dcd8931202105a5e33ddfaba1043</model>
-        <model_id>d0d0dcd8931202105a5e33ddfaba1043</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:44:49</sys_created_on>
-        <sys_id>2db15050935202105a5e33ddfaba103c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:46:23</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2db15050935202105a5e33ddfaba103c"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=2db15050935202105a5e33ddfaba103c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=d0d0dcd8931202105a5e33ddfaba1043^sys_idNOT IN69215410935202105a5e33ddfaba1069,ca4d0129935e02105a5e33ddfaba103f,dd215410935202105a5e33ddfaba1064"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -503,14 +390,14 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-16 20:42:21</sys_created_on>
         <sys_id>69215410935202105a5e33ddfaba1069</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 11:20:21</sys_updated_on>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -525,6 +412,116 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=69215410935202105a5e33ddfaba1069"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=69215410935202105a5e33ddfaba1069"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDca4d0129d35e0210d53dee62b4b75b3e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>4b28a3fb9354021026ba7e8efaba1069</scope_name>
+        <serialized_content>{"FlowDesigner:FDca4d0129d35e0210d53dee62b4b75b3e":{"$COCollectionField":[{"_":{"emailAddress":{"address":"String","address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"address\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"29f365dd-061d-45a5-b9e0-64192568b897\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f1d54833-3f7d-4d53-b2c1-973265e7bc38\"}"}},"emailAddress.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"emailAddress\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"06383ac9-e74c-416a-9b3a-01f16b6893d1\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"c6021c26-ccb4-4a89-b512-4382b65caecf\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"59eaf625-92c0-4332-86d3-de594887e3e1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDca4d0129d35e0210d53dee62b4b75b3e\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDca4d0129d35e0210d53dee62b4b75b3e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"59eaf625-92c0-4332-86d3-de594887e3e1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDca4d0129d35e0210d53dee62b4b75b3e\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:17:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e4d0129935e02105a5e33ddfaba103e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:08</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=attendees._,child_name=_,child_type=object,child_type_label=Object,child_uiUniqueId=1e2a3e49-2fdf-4183-8a14-dec504aa675f,co_type_name=FDca4d0129d35e0210d53dee62b4b75b3e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf,sourceType=step,sourceUiUniqueId=7ff3a6b6-e14c-4c85-807a-436dc536c28d,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=59eaf625-92c0-4332-86d3-de594887e3e1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attendees</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Attendees</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Teams Meeting Attendees">d0d0dcd8931202105a5e33ddfaba1043</model>
+        <model_id>d0d0dcd8931202105a5e33ddfaba1043</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:17:29</sys_created_on>
+        <sys_id>ca4d0129935e02105a5e33ddfaba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:17:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ca4d0129935e02105a5e33ddfaba103f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ca4d0129935e02105a5e33ddfaba103f"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -626,7 +623,30 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a9215410935202105a5e33ddfaba1072"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d0d0dcd8931202105a5e33ddfaba1043"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_d0d0dcd8931202105a5e33ddfaba1043"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043^sys_idNOT INa1215410935202105a5e33ddfaba106e,a5b15050935202105a5e33ddfaba1040,ad215410935202105a5e33ddfaba1068"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043^sys_idNOT IN464d0129935e02105a5e33ddfaba1044,a1215410935202105a5e33ddfaba106e,ad215410935202105a5e33ddfaba1068"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attendees</element>
+        <help/>
+        <hint/>
+        <label>Attendees</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:17:29</sys_created_on>
+        <sys_id>464d0129935e02105a5e33ddfaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:17:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -647,29 +667,6 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-16 20:42:21</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>out_array</element>
-        <help/>
-        <hint/>
-        <label>out_array</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-16 20:44:49</sys_created_on>
-        <sys_id>a5b15050935202105a5e33ddfaba1040</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 20:44:49</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -697,5 +694,705 @@ outputs.oarr = JSON.stringify(outArr2);&#13;
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_d0d0dcd8931202105a5e33ddfaba1043"/>
-    <sys_hub_action_plan action="delete_multiple" query="action_id=d0d0dcd8931202105a5e33ddfaba1043"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=d0d0dcd8931202105a5e33ddfaba1043^sys_idNOT IN69ed8d29935e02105a5e33ddfaba10ea"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Teams Meeting Attendees">d0d0dcd8931202105a5e33ddfaba1043</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"69ed8d29935e02105a5e33ddfaba10ea","name":"plan","plan_signature":null}}</plan>
+        <snapshot>9ded8d29935e02105a5e33ddfaba10bc</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69ed8d29935e02105a5e33ddfaba10ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:11</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Teams meeting spoke Array of Object</description>
+        <flow_priority/>
+        <internal_name>teams_meeting_attendees</internal_name>
+        <label_cache>[{"name":"{{step[792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf].attendees}}","label":"step➛Script step➛Attendees","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD544c49a52f5e02109258e79470ceffce","child_label":"attendees._","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"_","child_uiUniqueId":"1e2a3e49-2fdf-4183-8a14-dec504aa675f","uiUniqueId":"7ff3a6b6-e14c-4c85-807a-436dc536c28d"}}]</label_cache>
+        <master>true</master>
+        <name>Teams Meeting Attendees</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Teams Meeting Attendees">d0d0dcd8931202105a5e33ddfaba1043</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81ed8d29935e02105a5e33ddfaba1088</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_variable_value action="delete_multiple" query="document_key=81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>81ed8d29935e02105a5e33ddfaba1088</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:10</sys_created_on>
+        <sys_id>1ded8d29935e02105a5e33ddfaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">19ed8d29935e02105a5e33ddfaba10ad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>81ed8d29935e02105a5e33ddfaba1088</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:10</sys_created_on>
+        <sys_id>59ed8d29935e02105a5e33ddfaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">59ed8d29935e02105a5e33ddfaba10b1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attendees</field>
+        <id>81ed8d29935e02105a5e33ddfaba1088</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:10</sys_created_on>
+        <sys_id>51ed8d29935e02105a5e33ddfaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</table>
+        <value>{{step[792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf].attendees}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>81ed8d29935e02105a5e33ddfaba1088</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:10</sys_created_on>
+        <sys_id>d5ed8d29935e02105a5e33ddfaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>81ed8d29935e02105a5e33ddfaba1088</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:10</sys_created_on>
+        <sys_id>15ed8d29935e02105a5e33ddfaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=81ed8d29935e02105a5e33ddfaba1088^sys_idNOT IN89ed8d29935e02105a5e33ddfaba108c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Teams Meeting Attendees">81ed8d29935e02105a5e33ddfaba1088</action>
+        <cid>792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>89ed8d29935e02105a5e33ddfaba108c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=89ed8d29935e02105a5e33ddfaba108c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>89ed8d29935e02105a5e33ddfaba108c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>59ed8d29935e02105a5e33ddfaba1098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// use array of objects&#13;
+var obj = {&#13;
+    emailAddress: {&#13;
+        "address": "test@test.com",&#13;
+        "name": "test"&#13;
+    },&#13;
+    type : "required"&#13;
+};&#13;
+var attendees = [];&#13;
+attendees.push(obj);&#13;
+//outputs.attendees = JSON.stringify(attendees);&#13;
+outputs.attendees = attendees;&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>89ed8d29935e02105a5e33ddfaba108c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>95ed8d29935e02105a5e33ddfaba1098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_89ed8d29935e02105a5e33ddfaba108c^id=89ed8d29935e02105a5e33ddfaba108c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=89ed8d29935e02105a5e33ddfaba108c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=89ed8d29935e02105a5e33ddfaba108c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=89ed8d29935e02105a5e33ddfaba108c"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=89ed8d29935e02105a5e33ddfaba108c^sys_idNOT IN15ed8d29935e02105a5e33ddfaba1091"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD15ed8d29ca5e02106104e0f42ed18790</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>4b28a3fb9354021026ba7e8efaba1069</scope_name>
+        <serialized_content>{"FlowDesigner:FD15ed8d29ca5e02106104e0f42ed18790":{"$COCollectionField":[{"_":{"emailAddress":{"address":"String","address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"address\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"29f365dd-061d-45a5-b9e0-64192568b897\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f1d54833-3f7d-4d53-b2c1-973265e7bc38\"}"}},"emailAddress.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"emailAddress\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"06383ac9-e74c-416a-9b3a-01f16b6893d1\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"c6021c26-ccb4-4a89-b512-4382b65caecf\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD15ed8d29ca5e02106104e0f42ed18790\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD15ed8d29ca5e02106104e0f42ed18790.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD15ed8d29ca5e02106104e0f42ed18790\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5ed8d29935e02105a5e33ddfaba1090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=attendees._,child_name=_,child_type=object,child_type_label=Object,child_uiUniqueId=1e2a3e49-2fdf-4183-8a14-dec504aa675f,co_type_name=FD15ed8d29ca5e02106104e0f42ed18790,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=7ff3a6b6-e14c-4c85-807a-436dc536c28d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attendees</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Attendees</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">89ed8d29935e02105a5e33ddfaba108c</model>
+        <model_id>89ed8d29935e02105a5e33ddfaba108c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_89ed8d29935e02105a5e33ddfaba108c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>15ed8d29935e02105a5e33ddfaba1091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=89ed8d29935e02105a5e33ddfaba108c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_89ed8d29935e02105a5e33ddfaba108c^sys_idNOT IN1ded8d29935e02105a5e33ddfaba1094"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attendees</element>
+        <help/>
+        <hint/>
+        <label>Attendees</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_89ed8d29935e02105a5e33ddfaba108c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>1ded8d29935e02105a5e33ddfaba1094</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_hub_action_output action="delete_multiple" query="model=81ed8d29935e02105a5e33ddfaba1088^sys_idNOT IN19ed8d29935e02105a5e33ddfaba10a8,19ed8d29935e02105a5e33ddfaba10ad,59ed8d29935e02105a5e33ddfaba10b1"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD19ed8d294a5e0210cdd899bf204a7ca7</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>4b28a3fb9354021026ba7e8efaba1069</scope_name>
+        <serialized_content>{"FlowDesigner:FD19ed8d294a5e0210cdd899bf204a7ca7":{"$COCollectionField":[{"_":{"emailAddress":{"address":"String","address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"address\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"29f365dd-061d-45a5-b9e0-64192568b897\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f1d54833-3f7d-4d53-b2c1-973265e7bc38\"}"}},"emailAddress.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"emailAddress\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"06383ac9-e74c-416a-9b3a-01f16b6893d1\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"c6021c26-ccb4-4a89-b512-4382b65caecf\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"59eaf625-92c0-4332-86d3-de594887e3e1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD19ed8d294a5e0210cdd899bf204a7ca7\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD19ed8d294a5e0210cdd899bf204a7ca7.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"_\",\"uiUniqueId\":\"59eaf625-92c0-4332-86d3-de594887e3e1\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD19ed8d294a5e0210cdd899bf204a7ca7\",\"child_label\":\"attendees._\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"7ff3a6b6-e14c-4c85-807a-436dc536c28d\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1e2a3e49-2fdf-4183-8a14-dec504aa675f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9ed8d29935e02105a5e33ddfaba10a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=attendees._,child_name=_,child_type=object,child_type_label=Object,child_uiUniqueId=1e2a3e49-2fdf-4183-8a14-dec504aa675f,co_type_name=FD19ed8d294a5e0210cdd899bf204a7ca7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=792a54d0-ebf2-48d0-9ac1-5d943c6ea5bf,sourceType=step,sourceUiUniqueId=7ff3a6b6-e14c-4c85-807a-436dc536c28d,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=59eaf625-92c0-4332-86d3-de594887e3e1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attendees</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Attendees</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Teams Meeting Attendees">81ed8d29935e02105a5e33ddfaba1088</model>
+        <model_id>81ed8d29935e02105a5e33ddfaba1088</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>19ed8d29935e02105a5e33ddfaba10a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=19ed8d29935e02105a5e33ddfaba10a8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19ed8d29935e02105a5e33ddfaba10a8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=12d79cf7-207b-4005-ae41-bc16c3d820e2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Teams Meeting Attendees">81ed8d29935e02105a5e33ddfaba1088</model>
+        <model_id>81ed8d29935e02105a5e33ddfaba1088</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>19ed8d29935e02105a5e33ddfaba10ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=19ed8d29935e02105a5e33ddfaba10ad"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19ed8d29935e02105a5e33ddfaba10ad"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=baf6c236-0cd4-4623-abf4-f017a2b9def5,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Teams Meeting Attendees">81ed8d29935e02105a5e33ddfaba1088</model>
+        <model_id>81ed8d29935e02105a5e33ddfaba1088</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>59ed8d29935e02105a5e33ddfaba10b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=59ed8d29935e02105a5e33ddfaba10b1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=59ed8d29935e02105a5e33ddfaba10b1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=81ed8d29935e02105a5e33ddfaba1088^sys_idNOT IN19ed8d29935e02105a5e33ddfaba10bc"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Teams Meeting Attendees">81ed8d29935e02105a5e33ddfaba1088</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:10</sys_created_on>
+        <sys_id>19ed8d29935e02105a5e33ddfaba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=19ed8d29935e02105a5e33ddfaba10bc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088^sys_idNOT IN19ed8d29935e02105a5e33ddfaba10ac,59ed8d29935e02105a5e33ddfaba10b0,95ed8d29935e02105a5e33ddfaba10b6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attendees</element>
+        <help/>
+        <hint/>
+        <label>Attendees</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>19ed8d29935e02105a5e33ddfaba10ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:09</sys_created_on>
+        <sys_id>59ed8d29935e02105a5e33ddfaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 22:20:10</sys_created_on>
+        <sys_id>95ed8d29935e02105a5e33ddfaba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Asset Management System" source="x_757927_automat_0">4b28a3fb9354021026ba7e8efaba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Asset Management System">4b28a3fb9354021026ba7e8efaba1069</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 22:20:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_81ed8d29935e02105a5e33ddfaba1088"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>d0d0dcd8931202105a5e33ddfaba1043</sys_id>
+        <latest_snapshot>81ed8d29935e02105a5e33ddfaba1088</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch1-02-28-2024_03-09-2024_0815.zip</compiler_build>
+    </sys_hub_action_type_definition>
 </record_update>
